@@ -1,1 +1,0 @@
-Light sources other than diffuse
