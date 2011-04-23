@@ -1,0 +1,16 @@
+# lights
+raytracer.light.PositionalLight, -40.0,-30.0,0.0,	0.4
+raytracer.light.PositionalLight, 40.0,40.0,-20.0,	0.7
+
+# shapes
+raytracer.shapes.Sphere,	0.0,0.0,100.0,	80.0,	20.0, 255,200,0, 255,200,0, 64,64,64
+raytracer.shapes.Sphere,	40.0,-30.0,40.0,	35.0,	30.0, 10,10,10, 60,60,60, 200,200,200
+raytracer.shapes.Sphere,	-40.0,-30.0,40.0,	35.0,	30.0, 10,10,10, 60,60,60, 200,200,200
+raytracer.shapes.Sphere,	30.0,90.0,50.0,	50.0,	50.0, 0,0,255, 0,0,255, 64,64,64
+raytracer.shapes.AACuboid,	-70.0,-30.0,55.0,115.0,5.0,50.0,	50.0, 0,255,0, 0,255,0, 64,64,64
+raytracer.shapes.Plane,	100.0,	1.0,0.0,0.0,	50.0, 64,64,64, 64,64,64, 64,64,64
+raytracer.shapes.Plane,	-100.0,	1.0,0.0,0.0,	50.0, 64,64,64, 64,64,64, 64,64,64
+raytracer.shapes.Plane,	100.0,	0.0,0.0,-1.0,	50.0, 128,128,128, 128,128,128, 64,64,64
+raytracer.shapes.Plane,	95.0,	0.0,0.0,1.0,	50.0, 128,0,0, 128,0,0, 64,64,64
+raytracer.shapes.Plane,	-100.0,	0.0,1.0,0.0,	50.0, 128,192,192, 128,192,192, 64,64,64
+raytracer.shapes.Plane,	100.0,	0.0,1.0,0.0,	50.0, 92,92,92, 92,92,92, 64,64,64

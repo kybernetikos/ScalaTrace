@@ -1,0 +1,30 @@
+# A kind of mickey mouse bunch of spheres
+
+#Sphere,x,y,z,radius,shininess,red,green,blue
+raytracer.shapes.Sphere,0.0,0.0,100.0,80.0,20,255,200,0
+raytracer.shapes.Sphere,40.0,-30.0,40.0,35.0,20,255,255,255
+raytracer.shapes.Sphere,-40.0,-30.0,40.0,35.0,20,255,255,255
+
+# Another sphere that intersects with the room
+
+raytracer.shapes.Sphere,30.0,90.0,50.0,50.0,20,0,0,255
+
+# A green box off to the left
+
+#AACuboid,xmin,xmax,ymin,ymax,zmin,zmax,shininess,red,green,blue
+raytracer.shapes.AACuboid,-70.0,-30.0,55.0,115.0,5.0,50.0,20,0,255,0
+
+# A grey room made out of planes
+#Plane,planeconstant,normalx,normaly,normalz,shininess,red,green,blue
+#left wall
+raytracer.shapes.Plane,100.0,1.0,0.0,0.0,20,64,64,64
+#right wall
+raytracer.shapes.Plane,-100.0,1.0,0.0,0.0,20,64,64,64
+#back wall
+raytracer.shapes.Plane,100.0,0.0,0.0,-1.0,20,128,128,128
+#red colored wall behind the viewer
+raytracer.shapes.Plane,95.0,0.0,0.0,1,20,128,0,0
+#ceiling
+raytracer.shapes.Plane,-100.0,0.0,1.0,0.0,20,192,192,192
+#floor
+raytracer.shapes.Plane,100.0,0.0,1.0,0.0,20,192,192,192
